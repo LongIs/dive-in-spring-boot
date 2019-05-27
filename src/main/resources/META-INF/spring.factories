@@ -1,2 +1,8 @@
+# Initializers
+org.springframework.context.ApplicationContextInitializer=\
+com.loong.diveinspringboot.Chapter3.diveinspringboot.context.HelloWorldApplicationContextInitializer,\
+com.loong.diveinspringboot.Chapter3.diveinspringboot.context.AfterHelloWorldApplicationContextInitializer
+
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
 com.loong.diveinspringboot.Chapter2.autoConfigurataon.HelloWorldAutoConfiguration
+
