@@ -11,3 +11,6 @@ com.loong.diveinspringboot.Chapter2.autoConfigurataon.HelloWorldAutoConfiguratio
 org.springframework.context.ApplicationListener=\
 com.loong.diveinspringboot.Chapter3.listener.HelloWorldApplicationListener,\
 com.loong.diveinspringboot.Chapter3.listener.AfterHelloWorldApplicationListener
+
+org.springframework.boot.SpringApplicationRunListener=\
+com.loong.diveinspringboot.Chapter3.run.HelloWorldRunListener
