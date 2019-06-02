@@ -1,4 +1,4 @@
-package com.loong.diveinspringboot.Chapter3.diveinspringboot.context;
+package com.loong.diveinspringboot.Chapter3.context;
 
 import org.springframework.context.ApplicationContextInitializer;
 import org.springframework.context.ConfigurableApplicationContext;

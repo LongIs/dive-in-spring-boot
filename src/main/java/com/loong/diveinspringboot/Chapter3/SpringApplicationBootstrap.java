@@ -1,4 +1,4 @@
-package com.loong.diveinspringboot.Chapter3.diveinspringboot;
+package com.loong.diveinspringboot.Chapter3;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.WebApplicationType;
