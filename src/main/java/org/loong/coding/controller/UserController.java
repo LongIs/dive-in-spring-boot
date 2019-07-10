@@ -1,4 +1,4 @@
-package org.loong.coding.Controller;
+package org.loong.coding.controller;
 
 import org.loong.coding.model.User;
 import org.springframework.http.MediaType;

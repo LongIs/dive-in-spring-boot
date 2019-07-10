@@ -1,4 +1,4 @@
-package org.loong.coding.ControllerAdvice;
+package org.loong.coding.controllerAdvice;
 
 import org.springframework.core.MethodParameter;
 import org.springframework.http.MediaType;

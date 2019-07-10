@@ -1,6 +1,6 @@
 package org.loong.coding.model;
 
-import org.loong.coding.CustomValid.MyConstraint;
+import org.loong.coding.customValid.MyConstraint;
 
 /**
  * @author xiongtaolong
