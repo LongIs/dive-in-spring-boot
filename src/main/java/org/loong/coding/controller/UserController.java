@@ -1,4 +1,4 @@
-package org.loong.coding.Controller;
+package org.loong.coding.controller;
 
 import org.loong.coding.model.User;
 import org.springframework.http.MediaType;
@@ -35,5 +35,13 @@ public class UserController {
                                   @RequestHeader("Keep-Alive") long keepAlive)  {
 
         //…
+    }
+
+    @GetMapping(value = "/test")
+    public User test()  {
+        User user = new User();
+        user.setAge(11);
+        user.setUserName("张三");
+        return user;
     }
 }

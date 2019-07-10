@@ -1,4 +1,4 @@
-package org.loong.coding.ControllerAdvice;
+package org.loong.coding.controllerAdvice;
 
 import org.loong.coding.model.User;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
@@ -7,7 +7,6 @@ import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
 
 import javax.servlet.http.HttpServletRequest;
 import java.text.SimpleDateFormat;

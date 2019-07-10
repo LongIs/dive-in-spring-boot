@@ -1,4 +1,4 @@
-package org.loong.coding.CustomValid;
+package org.loong.coding.customValid;
 
 import org.springframework.stereotype.Component;
 import javax.validation.ConstraintValidator;
