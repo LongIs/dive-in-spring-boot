@@ -36,4 +36,12 @@ public class UserController {
 
         //…
     }
+
+    @GetMapping(value = "/test")
+    public User test()  {
+        User user = new User();
+        user.setAge(11);
+        user.setUserName("张三");
+        return user;
+    }
 }
