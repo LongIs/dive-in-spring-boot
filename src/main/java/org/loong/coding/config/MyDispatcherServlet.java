@@ -1,4 +1,4 @@
-package com.loong.diveinspringboot.Chapter4.config;
+package org.loong.coding.config;
 
 import org.springframework.context.annotation.ComponentScan;
 
@@ -7,6 +7,6 @@ import org.springframework.context.annotation.ComponentScan;
  * @date 2019-06-12 21:04
  */
 @ComponentScan
-public class DispatcherServletConfiguration {
+public class MyDispatcherServlet {
     //可以在此添加，加载Spring Mvc的一些额外条件 @EnableWebmvc、ViewResolver
 }

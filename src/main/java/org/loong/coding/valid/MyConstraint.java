@@ -1,4 +1,4 @@
-package org.loong.coding.customValid;
+package org.loong.coding.valid;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;
