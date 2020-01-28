@@ -1,16 +1,16 @@
 # Initializers
-org.springframework.context.ApplicationContextInitializer=\
-com.loong.diveinspringboot.Chapter3.context.HelloWorldApplicationContextInitializer,\
-com.loong.diveinspringboot.Chapter3.context.AfterHelloWorldApplicationContextInitializer
+# org.springframework.context.ApplicationContextInitializer=\
+# com.loong.diveinspringboot.Chapter3.context.HelloWorldApplicationContextInitializer,\
+# com.loong.diveinspringboot.Chapter3.context.AfterHelloWorldApplicationContextInitializer
 
 # Auto Configure
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.loong.diveinspringboot.Chapter2.autoConfigurataon.HelloWorldAutoConfiguration
+# org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+# com.loong.diveinspringboot.Chapter2.autoConfigurataon.HelloWorldAutoConfiguration
 
 # Application Listeners
-org.springframework.context.ApplicationListener=\
-com.loong.diveinspringboot.Chapter3.listener.HelloWorldApplicationListener,\
-com.loong.diveinspringboot.Chapter3.listener.AfterHelloWorldApplicationListener
+# org.springframework.context.ApplicationListener=\
+# com.loong.diveinspringboot.Chapter3.listener.HelloWorldApplicationListener,\
+# com.loong.diveinspringboot.Chapter3.listener.AfterHelloWorldApplicationListener
 
-org.springframework.boot.SpringApplicationRunListener=\
-com.loong.diveinspringboot.Chapter3.run.HelloWorldRunListener
+# org.springframework.boot.SpringApplicationRunListener=\
+# com.loong.diveinspringboot.Chapter3.run.HelloWorldRunListener
