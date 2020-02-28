@@ -6,12 +6,11 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Import;
 
 @SpringBootApplication
-@Import(TestImportSelector.class)
 public class Main {
     public static void main(String[] args) {
         SpringApplication springApplication = new SpringApplication();
         ConfigurableApplicationContext run = springApplication.run(Main.class);
-        Test bean = run.getBean(Test.class);
+        Test bean = (Test) run.getBean("testFactoryBean");
         bean.hello();
     }
 }
