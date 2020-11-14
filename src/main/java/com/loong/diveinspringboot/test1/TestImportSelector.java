@@ -1,4 +1,4 @@
-package com.loong.diveinspringboot.test;
+package com.loong.diveinspringboot.test1;
 
 import org.springframework.context.annotation.ImportSelector;
 import org.springframework.core.type.AnnotationMetadata;
@@ -12,6 +12,6 @@ public class TestImportSelector implements ImportSelector {
         }
 
         // 返回 Test 的全路径名，Test 会被放入到 Spring 容器中
-        return new String[]{"com.loong.diveinspringboot.test.Test"};
+        return new String[]{"com.loong.diveinspringboot.test1.Test"};
     }
 }

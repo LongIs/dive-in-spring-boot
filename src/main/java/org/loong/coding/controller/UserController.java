@@ -37,7 +37,7 @@ public class UserController {
         //…
     }
 
-    @GetMapping(value = "/test")
+    @GetMapping(value = "/test1")
     public User test()  {
         User user = new User();
         user.setAge(11);

@@ -1,4 +1,4 @@
-package com.loong.diveinspringboot.test;
+package com.loong.diveinspringboot.test1;
 
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.springframework.beans.factory.support.RootBeanDefinition;

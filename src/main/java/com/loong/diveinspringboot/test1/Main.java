@@ -1,16 +1,15 @@
-package com.loong.diveinspringboot.test;
+package com.loong.diveinspringboot.test1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
-import org.springframework.context.annotation.Import;
 
 @SpringBootApplication
 public class Main {
     public static void main(String[] args) {
         SpringApplication springApplication = new SpringApplication();
         ConfigurableApplicationContext run = springApplication.run(Main.class);
-        Test bean = (Test) run.getBean("testFactoryBean");
-        bean.hello();
+        Test2 bean = (Test2) run.getBean("test2");
+
     }
 }
