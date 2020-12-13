@@ -1,4 +1,4 @@
-package org.loong.algorithm.day01;
+package org.loong.algorithm.array;
 
 import java.util.Arrays;
 

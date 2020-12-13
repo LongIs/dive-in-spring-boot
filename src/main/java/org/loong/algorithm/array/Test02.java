@@ -1,4 +1,4 @@
-package org.loong.algorithm.day01;
+package org.loong.algorithm.array;
 
 public class Test02 {
 
