@@ -204,6 +204,17 @@ public class Test04 {
             this.addFirst(e);
             size++;
         }
+
+        /**
+         * 单链表 如何判断一个字符串是否是回文字符串的问题
+         */
+        public boolean isPalindrome() {
+
+            Node node = this.head;
+
+
+            return Boolean.TRUE;
+        }
     }
 
 }
