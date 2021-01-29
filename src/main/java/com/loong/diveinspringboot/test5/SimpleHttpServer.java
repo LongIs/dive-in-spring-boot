@@ -33,8 +33,8 @@ public class SimpleHttpServer {
     }
 
     public void run() {
-
-
+        List<Viewer> viewers = map.get("/config");
+        viewers.forEach(Viewer::output);
 
     }
 
