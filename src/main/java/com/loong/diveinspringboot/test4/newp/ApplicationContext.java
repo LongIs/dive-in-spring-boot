@@ -24,7 +24,6 @@ public class ApplicationContext {
 
         alert.addAlerthandler(new TpsAlertHandler(alertRule, notification));
         alert.addAlerthandler(new ErrorAlertHandler(alertRule, notification));
-        alert.check(new ApiStatInfo());
     }
 
     // 饿汉式单例
