@@ -1,4 +1,4 @@
-package com.loong.diveinspringboot.test7.newq;
+package com.loong.diveinspringboot.test7.new1;
 
 
 import com.google.gson.Gson;
@@ -10,6 +10,9 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * 将统计结果输出到相应的终端
+ */
 public class ConsoleReporter {
     private MetricsStorage metricsStorage;
     private ScheduledExecutorService executor;

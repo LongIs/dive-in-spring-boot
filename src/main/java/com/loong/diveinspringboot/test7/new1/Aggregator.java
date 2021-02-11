@@ -1,7 +1,10 @@
-package com.loong.diveinspringboot.test7.newq;
+package com.loong.diveinspringboot.test7.new1;
 
 import java.util.List;
 
+/**
+ * 是一个工具类，负责各种统计数据的计算，比如响应时间的最大值、最小值、平均值、百分位值、接口访问次数、tps
+ */
 public class Aggregator {
 
 

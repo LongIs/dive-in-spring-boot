@@ -1,7 +1,10 @@
-package com.loong.diveinspringboot.test7.newq;
+package com.loong.diveinspringboot.test7.new1;
 
 import java.util.*;
 
+/**
+ * 将统计结果输出到相应的终端
+ */
 public class EmailReporter {
     private static final Long DAY_HOURS_IN_SECONDS = 86400L;
 
